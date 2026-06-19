@@ -26,17 +26,7 @@ The business requirement is to provide a simple and interactive user experience 
 
 This project is suitable for a waterfall-style development approach because the requirements are simple, clearly defined, and unlikely to change significantly during development. If the application becomes popular or requires additional features in the future, it could be adapted into an agile project with continuous improvement and regular updates.
 
-The feasibility of the project has been considered using the TELOS framework (Putri, Chumaidiyah and Sriwana (2025):
-
-| TELOS Area | Feasibility Assessment |
-|---|---|
-| **Technical** | The project is technically feasible because it uses basic web technologies such as HTML, CSS, and JavaScript. The developer has the required skills, and the company already has access to the necessary tools and services. Free online resources can also be used to support development. |
-| **Economic** | The project is economically feasible because it is low cost, requires only one developer, and does not need expensive software, infrastructure, or third-party services. |
-| **Operational** | The project is operationally feasible because it is simple to use and meets the business requirement of allowing users to input their name and receive a styled output. |
-| **Legal and Compliance** | The project has minimal legal or compliance concerns because it does not require sensitive personal data, third-party APIs, or paid integrations. Any user input is only used temporarily to generate the displayed result. |
-| **Schedule** | The project is achievable within the planned development period. Due to its small scope and simple functionality, it can realistically be completed within a six-week timeframe. |
-
-The project is feasible because it is technically simple, low cost, easy to operate, and achievable within the proposed schedule.
+The project’s feasibility was assessed using the TELOS framework, which considers technical, economic, operational, legal/compliance, and schedule factors (Putri, Chumaidiyah and Sriwana, 2025). The project is feasible because it uses simple web technologies such as HTML, CSS, and JavaScript, requires minimal cost and resources. The project is feasible as it meets the basic user requirement of generating a styled name output, has low legal risk because no sensitive data or third-party services are used. It can realistically be completed within the planned three-week development period.
  
 </details>
 
@@ -98,17 +88,80 @@ The prototype can be used to gather user feedback on the layout, usability, and 
 
 ### Requirements
 
-Potential users require the web application to be simple, clear, and easy to use without needing instructions. The user should be able to enter their name into an input box and receive an immediate decorated result after clicking the submit button.
-
-The application should provide clear feedback if the input box is left empty, so the user understands what action is needed. Users require a reset option so they can clear the result and enter a different name.
-
-The design should be visually appealing, with colours, emojis, and effects that make the generated name look fun. The application should work smoothly in a modern web browser and be responsive enough to display correctly on different screen sizes.
+Users need the app to be simple, clear, and easy to use without instructions. They should be able to enter their name, receive an immediate decorated result, and reset the page to try again. The app should also provide feedback if no name is entered, use fun visual styling such as colours and emojis, and work smoothly across modern browsers and different screen sizes.
 
 ### User Persona
 
 <img width="940" height="533" alt="image" src="https://github.com/user-attachments/assets/7e7b7beb-dc7a-43bd-a72d-452fcafd660b" />
 
 **Figure 3** – *Proto-persona card of a likely user.* 
+
+</details>
+
+
+
+<details>
+
+<summary>User Documentation</summary>
+
+### Features
+
+This web application allows the user to enter their name and generate a decorated version of it. The output displays the name in a colourful and visually engaging style using emojis, animation, and text effects.
+
+The app includes:
+- A name input box
+- An enter button to generate the decorated name
+- A reset button to clear the result
+- A display area for the image or generated name
+
+### How to Use the App
+
+1. Open the application homepage.
+2. Type a name into the input box.
+3. Click the **ENTER** button.
+4. The entered name will appear on the page with decorative styling.
+5. To try again, either enter a new name or click the **RESET** button to return the page to its original state.
+
+</details>
+
+<details>
+
+<summary>Technical Documentation</summary>
+
+### Tech Stack and Deployment
+
+The application was built using basic front-end web technologies:
+
+- **HTML** for the page structure
+- **CSS** for styling, layout, colours, and animations
+- **JavaScript** for user input, validation, and displaying the decorated name
+- **Figma** for creating the design prototype
+- **GitHub** for version control and project management
+
+### System Requirements
+
+To develop, test, and deploy the application, the following are required:
+
+- Access to the internet
+- A modern web browser
+- A GitHub account
+- Access to the GitHub repository and GitHub Projects board
+- A code editor, such as Visual Studio Code
+- Access to Figma for viewing or editing the prototype
+
+</details>
+
+<details>
+
+<summary>Project Management</summary>
+
+### Project Board
+
+The project was managed using GitHub Projects as a Kanban-style board, allowing tasks to be created as issues and moved through stages such as **To Do**, **In Progress**, **In Review**, and **Done**. Linking issues to pull requests helped connect tasks to code changes, support review by others, and automatically update or close work when completed.
+
+<img width="940" height="624" alt="image" src="https://github.com/user-attachments/assets/32a7394e-d9f3-4e28-a9b7-c7d12b0f7e4e" />
+
+**Figure 4** - *Figure shows a mid-development screenshot of the GitHub project board.*
 
 </details>
 
