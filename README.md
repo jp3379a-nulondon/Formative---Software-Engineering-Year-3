@@ -20,7 +20,7 @@ The business requirement is to provide a simple and interactive user experience 
 
 <details>
 
-<summary>Feasibility and Design</summary>
+<summary>Feasibility</summary>
 
 ### Feasibility
 
@@ -38,6 +38,55 @@ The feasibility of the project has been considered using the TELOS framework (Pu
 
 The project is feasible because it is technically simple, low cost, easy to operate, and achievable within the proposed schedule.
  
+</details>
+
+
+
+<details>
+<summary>Design and Prototyping</summary>
+
+### Requirements
+
+The web application is designed as a simple one page application. The user enters their name into an input box, and the application displays the name in a more colourful and decorative style using emojis and visual effects.
+
+#### Functional Requirements
+
+1. The application must allow the user to enter their name into an input field.
+2. The application must validate that the input field is not empty before submitting.
+3. The application must display the entered name on the page after submission.
+4. The displayed name must include decorative styling, such as colour, emojis, or visual effects.
+5. The application must provide a reset option to clear the input and return the page to its original state.
+
+#### Non-Functional Requirements
+
+1. The application should be simple and easy to use.
+2. The design should be visually clear and suitable for the intended purpose.
+3. The page should respond quickly when the user submits or resets their name.
+4. The application should work correctly in a modern web browser.
+5. The code should be structured clearly so it can be maintained or improved in the future.
+
+---
+
+### Figma Design
+
+A Figma prototype was created to show the planned design and user flow for the web application.
+
+[Click here for Figma Prototype](https://www.figma.com/proto/78K9Uwt0qW2bn8YnjpyLGU/Untitled?node-id=0-1&t=edW5kpMw7hRm3UPV-1)
+
+Figma was used to create an interactive prototype of the minimum viable product (MVP). This helped define the layout, visual style, and basic functionality before development began. It also provided a clear example of how the user would interact with the application.
+
+
+<img width="940" height="683" alt="image" src="https://github.com/user-attachments/assets/a3fdeaf9-33a0-4ff8-a7d0-1941800ab6d0" />
+
+**Figure 1 -** *Shows the homepage of the application, where the user can enter their name into the input box.*
+
+<img width="940" height="684" alt="image" src="https://github.com/user-attachments/assets/0ef260b6-2996-45e4-8f28-9636da36b27c" />
+
+**Figure 2 -** *Shows the results view, where the user’s entered name is displayed with decorative styling.*  
+
+
+The prototype can also be used to gather user feedback on the layout, usability, and overall appearance of the application before the final version is completed.
+
 </details>
 
 
