@@ -73,7 +73,7 @@ A Figma prototype was created to show the planned design and user flow for the w
 
 [Click here for Figma Prototype](https://www.figma.com/proto/78K9Uwt0qW2bn8YnjpyLGU/Untitled?node-id=0-1&t=edW5kpMw7hRm3UPV-1)
 
-Figma was used to create an interactive prototype of the minimum viable product (MVP). This helped define the layout, visual style, and basic functionality before development began. It also provided a clear example of how the user would interact with the application.
+Figma was used to create an interactive prototype of the minimum viable product (MVP). This helped define the layout, visual style, and basic functionality before development began. It provides a clear example of how the user would interact with the application.
 
 
 <img width="940" height="683" alt="image" src="https://github.com/user-attachments/assets/a3fdeaf9-33a0-4ff8-a7d0-1941800ab6d0" />
@@ -85,7 +85,30 @@ Figma was used to create an interactive prototype of the minimum viable product 
 **Figure 2 -** *Shows the results view, where the user’s entered name is displayed with decorative styling.*  
 
 
-The prototype can also be used to gather user feedback on the layout, usability, and overall appearance of the application before the final version is completed.
+The prototype can be used to gather user feedback on the layout, usability, and overall appearance of the application before the final version is completed.
+
+</details>
+
+
+
+
+<details>
+
+<summary>User requirements</summary>
+
+### Requirements
+
+Potential users require the web application to be simple, clear, and easy to use without needing instructions. The user should be able to enter their name into an input box and receive an immediate decorated result after clicking the submit button.
+
+The application should provide clear feedback if the input box is left empty, so the user understands what action is needed. Users require a reset option so they can clear the result and enter a different name.
+
+The design should be visually appealing, with colours, emojis, and effects that make the generated name look fun. The application should work smoothly in a modern web browser and be responsive enough to display correctly on different screen sizes.
+
+### User Persona
+
+<img width="940" height="533" alt="image" src="https://github.com/user-attachments/assets/7e7b7beb-dc7a-43bd-a72d-452fcafd660b" />
+
+**Figure 3** – *Proto-persona card of a likely user.* 
 
 </details>
 
