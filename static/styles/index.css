@@ -1,0 +1,175 @@
+/* Main reusable homepage template background - Black screen area */
+body {
+    margin: 0 auto; /* Centers the body content horizontally */
+    width: 100%; /* Sets the width of the body to 100% of the viewport width */
+    height: 100%; /* Sets the height of the body to 100% of the viewport height */
+    background: #f59090; /* Sets the background color of the body to black */
+    
+    display: flex; /* Enables flexbox layout for the body */
+    flex-direction: column;
+    align-items: center; /* Vertically centers the body content */
+    justify-content: center; /* Horizontally centers the body content */
+    font-family: 'Inter', sans-serif; /* Sets the font family for the body content */
+}
+/* Page titles style class */
+.page_titles {
+    font-weight: 800; /* Font weight for the text */
+    font-size: 50px; /* Font size for the text */
+    line-height: 42px; /* Line height for the text */
+    color: #ffffff; /* Text color */
+
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
+    margin: 100px 10px 10px 10px; /* Margin around the page title */
+}
+
+/* Paragraph style class */
+.paragraph_style {
+    font-size:30px; /* Font size for the paragraph text */
+    line-height: 28px; /* Line height for the paragraph text */
+    color: #ffffff; /* Paragraph text color */
+
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0px 20px 0px;
+}
+
+/* Main image */
+.homepage_image {
+    width: 700px;
+    height: 400px;
+
+    background-image: url("/images/homepage_image.jpg"); /* Location of the image */
+  
+    background-position: center; /* centers the image */
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
+    margin: 30px 10px 30px 10px; /* Margin around the image */
+}
+
+/* Enter button */
+.homepage_enter_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 260px; /* Sets the width of the button */
+    height: 72px; /* Sets the height of the button */
+    margin: 30px 10px 30px 10px;
+
+    background: #2e6e37; /* Button background color */
+    border: 3px solid #FFFFFF; /* Button border color and thickness */
+    border-radius: 20px; /* Rounded corners for the button */
+
+    font-size: 35px; /* Font size for the button text */
+    font-weight: 800; /* Font weight for the button text */
+    color: #FFFFFF; /* Button text color */
+
+
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+/* Reset button */
+.reset_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px; /* Sets the width of the button */
+    height: 72px; /* Sets the height of the button */
+    margin: 30px 10px 30px 10px;
+
+    background: #2e6e37; /* Button background color */
+    border: 3px solid #FFFFFF; /* Button border color and thickness */
+    border-radius: 20px; /* Rounded corners for the button */
+
+    font-size: 35px; /* Font size for the button text */
+    font-weight: 800; /* Font weight for the button text */
+    color: #FFFFFF; /* Button text color */
+
+
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+    
+/* Name input box */
+.name_input_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 260px;
+    height: 72px;
+    margin: 30px 10px 30px 10px;
+    
+    background: #0c173d;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+
+    font-size: 22px;
+    font-weight: 600;
+    color: #fafafa;
+    text-align: center;
+}
+
+.display_area {
+    width: 600px;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animated text style */
+.result_text {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s ease;
+
+    text-shadow:
+        0 0 10px #ffffff,
+        0 0 20px #ff0080,
+        0 0 40px #ff0080,
+        0 0 80px #ff0080;
+
+}
+
+/* Active animation */
+.result_text.show {
+    opacity: 1;
+    transform: scale(1.2) rotate(0deg);
+}
+
+/* Pulsing glow AFTER it appears */
+.result_text.glow {
+    animation: pulseGlow 1.5s infinite alternate;
+}
+
+@keyframes pulseGlow {
+    from {
+        text-shadow:
+            0 0 10px #ffffff,
+            0 0 20px #ff0080,
+            0 0 40px #ff0080;
+    }
+    to {
+        text-shadow:
+            0 0 20px #fbff08,
+            0 0 40px #ff0080,
+            0 0 80px #ff0080;
+    }
+}
+
