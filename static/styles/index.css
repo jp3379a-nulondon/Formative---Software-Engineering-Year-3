@@ -43,7 +43,7 @@ body {
     width: 700px;
     height: 400px;
 
-    background-image: url("/images/homepage_image.jpg"); /* Location of the image */
+    background-image: url("images/homepage_image.jpg"); /* Location of the image */
   
     background-position: center; /* centers the image */
     justify-content: flex-start;
