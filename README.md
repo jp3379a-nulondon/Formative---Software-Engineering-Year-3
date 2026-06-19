@@ -63,7 +63,7 @@ A Figma prototype was created to show the planned design and user flow for the w
 
 [Click here for Figma Prototype](https://www.figma.com/proto/78K9Uwt0qW2bn8YnjpyLGU/Untitled?node-id=0-1&t=edW5kpMw7hRm3UPV-1)
 
-Figma was used to create an interactive prototype of the minimum viable product (MVP). This helped define the layout, visual style, and basic functionality before development began. It provides a clear example of how the user would interact with the application.
+Figma was used to create an interactive prototype of the minimum viable product (MVP). This helped define the layout, visual style, and basic functionality before development began. It provides a clear example of how the user would interact with the application (Figma, n.d.).
 
 
 <img width="940" height="683" alt="image" src="https://github.com/user-attachments/assets/a3fdeaf9-33a0-4ff8-a7d0-1941800ab6d0" />
@@ -170,13 +170,69 @@ The project was managed using GitHub Projects as a Kanban-style board, allowing 
 
 <details>
 
-<summary> References </summary>
+<summary>Testing</summary>
 
-- Putri, S., Chumaidiyah, E. and Sriwana, I. (2025) “TELOS Feasibility Analysis for Application Development Project using System Dynamics Approach”, Journal Teknik Industri: Jurnal Hasil Penelitian dan Karya Ilmiah dalam Bidang Teknik Industri, 11(1), pp. 89-100 [online] Available at: https://doi.org/10.24014/jti.v11i1.37009. (Accessed: 19 June 2026).
+### Manual Tests
+The application was tested manually by checking that:
+
+- The homepage loads correctly.
+- The CSS styling and images display as expected.
+- The user can enter a name into the input box.
+- The **ENTER** button displays the decorated name.
+- Empty input is handled correctly.
+- The **RESET** button clears the result and restores the original page view.
+- The application works correctly after deployment to GitHub Pages.
+
+### Google Lighthouse - Accessibility testing
+Google Lighthouse enables accessibility testing to be conducted directly within the web browser, allowing developers to assess the accessibility quality of a web page, identify common issues such as missing labels or insufficient colour contrast, and use the generated report to support evidence-based improvements before deployment (Google Lighthouse, n.d.).
+
+
+[Click here for the full Google Lighthouse Report](https://github.com/user-attachments/files/29138957/google_lighthouse_report.pdf)
+
+
+<img width="940" height="581" alt="image" src="https://github.com/user-attachments/assets/2566a3c2-2b95-4ed7-88d1-6c960dcfa817" />
+
+ 
+**Figure 5** - *Google lighthouse report showing overall high scores, but accessibility needs to be improved.*
 
 </details>
 
 
 
 
+<details>
 
+<summary>Evaluation</summary>
+
+### Future Development
+
+The application could be further developed by expanding it beyond a single-page design and introducing additional features. For example, future versions could generate different emoji combinations for each name, include a name generator that allows users to create random names before decorating them, or add a name rating feature that scores the generated name out of ten.
+
+These improvements would increase the level of interactivity within the application and may improve user engagement. Research suggests that better functionality which is well-designed, can positively influence user satisfaction, trust, and continued usage intention (Kim and Yum, 2024).
+
+### Conclusion
+
+The project was successful in meeting its main objective of creating a simple interactive web application. The development process was manageable due to the limited scope of the application and the use of basic web technologies such as HTML, CSS, and JavaScript.
+
+There were some challenges experienced when using GitHub Projects. In particular, linking project tickets to pull requests occasionally caused confusion, as pull requests would be a separate entity which made the project board appear busy. Despite this, the linked issues with the pull requests entities still provided useful documentation of the tasks completed and helped track the development process. This demonstrated the value of using version control and project management tools, while also highlighting the importance of keeping project boards clear and well organised.
+
+</details>
+
+
+
+
+<details>
+
+<summary> References </summary>
+
+- Kim, J., and Yum, K. (2024) “Enhancing Continuous Usage Intention in E-Commerce Marketplace Platforms: The Effects of Service Quality, Customer Satisfaction, and Trust”, Applied Sciences, 14(17), Article 7617. [online] Available at: https://doi.org/10.3390/app14177617 (Accessed: 19 June 2026).
+
+- Putri, S., Chumaidiyah, E. and Sriwana, I. (2025) “TELOS Feasibility Analysis for Application Development Project using System Dynamics Approach”, Journal Teknik Industri: Jurnal Hasil Penelitian dan Karya Ilmiah dalam Bidang Teknik Industri, 11(1), pp. 89-100 [online] Available at: https://doi.org/10.24014/jti.v11i1.37009. (Accessed: 19 June 2026).
+  
+- Figma (n.d.) Figma [online]. Available at: https://figma.com/ (Accessed: 19 June 2026).
+  
+- Google Lighthouse (n.d.) Lighthouse [online]. Available at: https://developer.chrome.com/docs/lighthouse (Accessed: 19 June 2026).
+  
+- GitHub (n.d.) GitHub [online]. Available at: https://https://github.com/ (Accessed: 19 June 2026).
+
+</details>
